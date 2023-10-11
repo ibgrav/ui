@@ -1,3 +1,4 @@
 export * from "./types";
 
-export const test = true;
+export { render } from "./render";
+export { renderToDoc } from "./render-to-doc";

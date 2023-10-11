@@ -1,5 +1,5 @@
 {
-  "include": ["index.d.ts", "**/*.js", "**/*.ts", "**/*.tsx"],
+  "include": ["**/*.js", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules", "dist"],
 
   "compilerOptions": {
