@@ -1,0 +1,8 @@
+{
+  "name": "@ibgrav/ui-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel run dev",
+    "main": "pnpm -F @ibgrav/ui"
+  }
+}

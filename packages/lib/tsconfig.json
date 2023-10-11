@@ -1,0 +1,19 @@
+{
+  "include": ["index.d.ts", "**/*.js", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "dist"],
+
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+
+    "moduleResolution": "bundler",
+
+    "noEmit": true,
+    "strict": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "noUncheckedIndexedAccess": true
+  }
+}
